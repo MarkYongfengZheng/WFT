@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T03:25:57.430Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="14.2.5" etag="VCY_lTD-0qnRN8trlZcf" type="github"><diagram id="9mK3CJqxpFJAuQcY56w9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-20T06:17:34.347Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="0U3PTI9a4vJH2G-3Pg5v" version="14.2.5" type="github">
+  <diagram id="9mK3CJqxpFJAuQcY56w9" name="Page-1">
+    <mxGraphModel dx="1030" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oM-UaidCRPdFnIzGPrIo-18" target="oM-UaidCRPdFnIzGPrIo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="230" />
+              <mxPoint x="180" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oM-UaidCRPdFnIzGPrIo-2" target="oM-UaidCRPdFnIzGPrIo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-2" value="门店A发生交易" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="oM-UaidCRPdFnIzGPrIo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oM-UaidCRPdFnIzGPrIo-12" target="oM-UaidCRPdFnIzGPrIo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-13" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oM-UaidCRPdFnIzGPrIo-3" target="oM-UaidCRPdFnIzGPrIo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-3" value="是否第一次&lt;br&gt;超过每日/每月收款限额" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-4" value="发送push通知给管理员" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-5" value="发送push通知给收款员" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oM-UaidCRPdFnIzGPrIo-10" target="oM-UaidCRPdFnIzGPrIo-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="230" />
+              <mxPoint x="180" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-10" value="管理员本月/本日第N次修改设定与【提示数值】（N≥2）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oM-UaidCRPdFnIzGPrIo-12" target="oM-UaidCRPdFnIzGPrIo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-12" value="本月、本日&lt;br&gt;是否发送过push" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-14" value="No, 本月/本日无发送过push" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-15" value="&lt;font color=&quot;#ffffff&quot;&gt;不发送push&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="352" y="480" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oM-UaidCRPdFnIzGPrIo-18" value="管理员设置【提示数值】与打开【开关】" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
