@@ -1,1 +1,146 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T06:35:23.472Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="14.5.4" etag="1WlI38rBzw5fB15GZYaT" type="github"><diagram id="SbfhiwLVyii9S7zGblv1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-02T07:27:23.055Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="4VK0WszA3t5Y7xDbTYaY" version="14.5.4" type="github">
+  <diagram id="SbfhiwLVyii9S7zGblv1" name="Page-1">
+    <mxGraphModel dx="1030" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-4" target="M5G-lwNO9AwvwpBd1P69-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-4" value="收款员选择退款" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-5" target="M5G-lwNO9AwvwpBd1P69-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-5" value="收款员：输入退款原因" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-6" target="M5G-lwNO9AwvwpBd1P69-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-6" value="管理员：&lt;br&gt;进入审批设定界面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-7" target="M5G-lwNO9AwvwpBd1P69-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-7" value="管理员：&lt;br&gt;更改审批开关状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-8" target="M5G-lwNO9AwvwpBd1P69-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-8" target="M5G-lwNO9AwvwpBd1P69-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-8" value="2FA（关开均要）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-11" value="审批设定更改通知：发送SMS以及电邮给管理员" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-13" value="Page：&lt;br&gt;更改设定结果页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-15" target="M5G-lwNO9AwvwpBd1P69-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-15" value="收款员：PSW" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-23" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-17" target="M5G-lwNO9AwvwpBd1P69-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-24" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-17" target="M5G-lwNO9AwvwpBd1P69-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-17" value="管理员是否要求审批" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="280" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-18" target="M5G-lwNO9AwvwpBd1P69-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-18" value="收款员：&lt;br&gt;审批提交成功页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-19" target="M5G-lwNO9AwvwpBd1P69-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-19" value="收款员：&lt;br&gt;退款成功页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-25" value="发送SMS以及电邮给管理员" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-27" value="系统：发送push/sms/email给管理员，要求其进行审批" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-29" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;管理员的首页待审批数据更新；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;待审批更新；&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-30" target="M5G-lwNO9AwvwpBd1P69-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-30" value="管理员：&lt;br&gt;点击push/进入审批页面选中某一事项" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-41" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-31" target="M5G-lwNO9AwvwpBd1P69-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-44" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-31" target="M5G-lwNO9AwvwpBd1P69-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-31" value="管理员是否同意" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="930" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-32" target="M5G-lwNO9AwvwpBd1P69-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-32" value="管理员：&lt;br&gt;进入特定审批页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-37" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-35" target="M5G-lwNO9AwvwpBd1P69-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-39" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-35" target="M5G-lwNO9AwvwpBd1P69-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-35" value="管理员待审批是否大于1笔" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-36" target="M5G-lwNO9AwvwpBd1P69-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-36" value="管理员：&lt;br&gt;进入待审批列表页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-40" value="管理员：&lt;br&gt;审批拒绝页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-42" target="M5G-lwNO9AwvwpBd1P69-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-42" value="2FA（先密码后OTP）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5G-lwNO9AwvwpBd1P69-45" target="M5G-lwNO9AwvwpBd1P69-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-45" value="管理员：&lt;br&gt;退款通过页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-47" value="发送sms/email给管理员：退款成功" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5G-lwNO9AwvwpBd1P69-49" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="261" y="584.5" width="18" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
