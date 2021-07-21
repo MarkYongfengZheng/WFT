@@ -1,1 +1,175 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T02:52:47.140Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" version="14.9.0" etag="5nB-ayOMMYB6Buf2MKTE" type="github"><diagram id="ma7oZk1mJwbiyzSx7iWD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-21T06:46:27.596Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="otBbMRqinnAC9QOnW3UB" version="14.9.0" type="github">
+  <diagram id="ma7oZk1mJwbiyzSx7iWD" name="Page-1">
+    <mxGraphModel dx="1857" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8aktlB1aReq868ipJdgy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-3" target="8aktlB1aReq868ipJdgy-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-3" value="开始拍摄身份证正反两面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-31" target="8aktlB1aReq868ipJdgy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-5" value="点击进入&lt;br&gt;“忘记密码”流程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-9" target="8aktlB1aReq868ipJdgy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="530" />
+              <mxPoint x="345" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-7" value="校验不通过，重新拍摄" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8aktlB1aReq868ipJdgy-6">
+          <mxGeometry x="-0.2441" y="1" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-9" target="8aktlB1aReq868ipJdgy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-9" value="调用接口Image Quality&lt;br&gt;判断图片质量" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="490" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-11" target="8aktlB1aReq868ipJdgy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-11" value="照片信息上传，产生font /back side Url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-13" target="8aktlB1aReq868ipJdgy-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-13" value="调用接口ID Classification 判断是否为身份证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-18" target="8aktlB1aReq868ipJdgy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="920" />
+              <mxPoint x="520" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-15" value="用户信息不正确&lt;br&gt;要求重拍" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8aktlB1aReq868ipJdgy-14">
+          <mxGeometry x="-0.8576" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-18" target="8aktlB1aReq868ipJdgy-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="234" y="1000" />
+              <mxPoint x="550" y="1000" />
+              <mxPoint x="550" y="110" />
+              <mxPoint x="820" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-17" value="用户确认信息无误" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8aktlB1aReq868ipJdgy-16">
+          <mxGeometry x="-0.7484" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-18" value="用户是否确认信息？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="880" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-19" value="用户通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-48" target="8aktlB1aReq868ipJdgy-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="694.5" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-22" target="8aktlB1aReq868ipJdgy-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-22" value="用户设置密码，并且两次输入的密码一致" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-31" value="使用login接口&lt;br&gt;获取token、userId" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-5" target="8aktlB1aReq868ipJdgy-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250.00000000000023" y="100.00000000000023" as="sourcePoint" />
+            <mxPoint x="235.00000000000023" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-33" value="身份证正反两面上传地址:&lt;a href=&quot;https://sandbox-preproduction.signzy.tech/foreignId-classification&quot;&gt;https://sandbox-preproduction.signzy.tech/foreignId-classification&lt;/a&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-37" target="8aktlB1aReq868ipJdgy-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="720" />
+              <mxPoint x="440" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-35" value="ID classification不通过&lt;br&gt;用户可以退出或者重新输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8aktlB1aReq868ipJdgy-34">
+          <mxGeometry x="-0.3249" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-36" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-37" target="8aktlB1aReq868ipJdgy-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-37" value="判断idType、CountryCode是否为阿联酋？" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="154" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-39" target="8aktlB1aReq868ipJdgy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-39" value="调用EID Extraction 提取信息、展示页面（name、DoB等）" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="174" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-41" target="8aktlB1aReq868ipJdgy-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-41" value="调用video verification&lt;br&gt;请求视频验证url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-43" target="8aktlB1aReq868ipJdgy-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-43" value="用户录入视频" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="765" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-45" target="8aktlB1aReq868ipJdgy-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-45" value="调用video verification inquiry接口，获得活动参数 matchPercentage" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="755" y="280" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-48" target="8aktlB1aReq868ipJdgy-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="400" />
+              <mxPoint x="980" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-47" value="≤70%验证不通过&lt;br&gt;用户可以选择重新拍摄" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8aktlB1aReq868ipJdgy-46">
+          <mxGeometry x="0.0507" y="-3" relative="1" as="geometry">
+            <mxPoint x="97" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-48" value="matchPercentage是否＞70%" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="360" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8aktlB1aReq868ipJdgy-53" target="8aktlB1aReq868ipJdgy-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-53" value="向中台请求重新设置支付密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="585" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8aktlB1aReq868ipJdgy-55" value="结束重新设置密码流程，返回主页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="670" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
