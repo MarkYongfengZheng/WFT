@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T02:59:57.666Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="_tf-Be3zWFk3RID0l_yl" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T13:00:57.882Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="kR1KLbF67OOnCOELcP57" version="14.9.3" type="github">
   <diagram id="m5OsKufubtWg9PYXpigb" name="Page-1">
-    <mxGraphModel dx="1685" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1685" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
         <mxCell id="-PtaE-Mu1wmv-w4eBili-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-PtaE-Mu1wmv-w4eBili-5" target="aSY6GiX8y2zgrVZKX64a-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="720" />
+              <mxPoint x="440" y="730" />
               <mxPoint x="440" y="350" />
             </Array>
           </mxGeometry>
@@ -211,7 +211,7 @@
         <mxCell id="XooyULAbquvMzC7Yg5_C-2" value="调用Get Card Details&lt;br&gt;查询注册状态" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="813.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XooyULAbquvMzC7Yg5_C-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;Change Log：&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;20210720：&lt;/span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Fahad取消AML blacklist screening流程，由FAB完成&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="XooyULAbquvMzC7Yg5_C-9" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span&gt;Change Log：&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;20210720：&lt;/span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Fahad取消AML blacklist screening流程，由FAB完成&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;20210725：取消接口id identification、EID extraction的是使用，改为id intelligence接口，提出者--fahad&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-90" y="10" width="450" height="20" as="geometry" />
         </mxCell>
         <mxCell id="68XabqfVFRzpYbLpnjrA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68XabqfVFRzpYbLpnjrA-1">
