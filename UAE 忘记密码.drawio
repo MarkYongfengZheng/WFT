@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-01T14:41:03.196Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="tkv3YB6O-jPvWBYDHSoQ" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T13:00:52.026Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="n1N92Y2pNNoQZMSFnZe0" version="14.9.3" type="github">
   <diagram id="ma7oZk1mJwbiyzSx7iWD" name="Page-1">
-    <mxGraphModel dx="1685" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1685" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,20 +44,20 @@
         <mxCell id="8aktlB1aReq868ipJdgy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8aktlB1aReq868ipJdgy-13" target="8aktlB1aReq868ipJdgy-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8aktlB1aReq868ipJdgy-13" value="调用接口ID Classification 判断是否为身份证" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="175" y="600" width="120" height="50" as="geometry" />
+        <mxCell id="8aktlB1aReq868ipJdgy-13" value="调用接口id intelligence判断是发卡国家是否为阿联酋，获取用户信息" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="175" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8aktlB1aReq868ipJdgy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-18" target="8aktlB1aReq868ipJdgy-3" edge="1">
+        <mxCell id="8aktlB1aReq868ipJdgy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-18" target="8aktlB1aReq868ipJdgy-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="920" />
+              <mxPoint x="520" y="940" />
               <mxPoint x="520" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8aktlB1aReq868ipJdgy-15" value="用户信息不正确&lt;br&gt;要求重拍" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8aktlB1aReq868ipJdgy-14" vertex="1" connectable="0">
           <mxGeometry x="-0.8576" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="27" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8aktlB1aReq868ipJdgy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-18" target="8aktlB1aReq868ipJdgy-41" edge="1">
@@ -76,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8aktlB1aReq868ipJdgy-18" value="用户是否确认信息？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="169" y="880" width="130" height="80" as="geometry" />
+          <mxGeometry x="170" y="900" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8aktlB1aReq868ipJdgy-19" value="用户通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-48" target="8aktlB1aReq868ipJdgy-22" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -101,15 +101,15 @@
         <mxCell id="8aktlB1aReq868ipJdgy-33" value="身份证正反两面上传地址:&lt;a href=&quot;https://sandbox-preproduction.signzy.tech/foreignId-classification&quot;&gt;https://sandbox-preproduction.signzy.tech/foreignId-classification&lt;/a&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-70" y="320" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8aktlB1aReq868ipJdgy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-37" target="8aktlB1aReq868ipJdgy-3" edge="1">
+        <mxCell id="8aktlB1aReq868ipJdgy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-37" target="8aktlB1aReq868ipJdgy-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="720" />
+              <mxPoint x="440" y="740" />
               <mxPoint x="440" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8aktlB1aReq868ipJdgy-35" value="ID classification不通过&lt;br&gt;用户可以退出或者重新输入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8aktlB1aReq868ipJdgy-34" vertex="1" connectable="0">
+        <mxCell id="8aktlB1aReq868ipJdgy-35" value="issuingStateCode不为&lt;br&gt;ARE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8aktlB1aReq868ipJdgy-34" vertex="1" connectable="0">
           <mxGeometry x="-0.3249" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -117,14 +117,14 @@
         <mxCell id="8aktlB1aReq868ipJdgy-36" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-37" target="8aktlB1aReq868ipJdgy-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8aktlB1aReq868ipJdgy-37" value="判断idType、CountryCode是否为阿联酋？" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="154" y="680" width="160" height="80" as="geometry" />
+        <mxCell id="8aktlB1aReq868ipJdgy-37" value="判断issuingStateCode是否为阿联酋？" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="154" y="700" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8aktlB1aReq868ipJdgy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8aktlB1aReq868ipJdgy-39" target="8aktlB1aReq868ipJdgy-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8aktlB1aReq868ipJdgy-39" value="调用EID Extraction 提取信息、展示页面（name、DoB等）" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="174" y="800" width="120" height="60" as="geometry" />
+        <mxCell id="8aktlB1aReq868ipJdgy-39" value="展示个人信息页面（name、DoB等）" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="175" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8aktlB1aReq868ipJdgy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8aktlB1aReq868ipJdgy-41" target="8aktlB1aReq868ipJdgy-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
